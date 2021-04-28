@@ -1,36 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import WeatherSearch from "./WeatherSearch";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <h1>Weather App</h1>
+      <WeatherSearch />
     </div>
   );
 }
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-
-
-
-
-
-
-
-import React from "react";
-import ReactDOM from "react-dom";
-import Weather from "./Weather";
-
-import "./App.css";
-
