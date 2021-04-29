@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WeatherSearch from "./WeatherSearch";
-import 'bootstrap/dist/css/bootstrap.css';
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App!</h1>
       <WeatherSearch />
+      <button type="button" class="btn btn-secondary">Current</button>
+
       <br />
       Last Updated: April 22, 2021. 6:33pm. 
       <br />
