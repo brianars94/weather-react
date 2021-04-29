@@ -12,7 +12,10 @@ function App() {
       <br />
       Last Updated: April 22, 2021. 6:33pm. 
       <br />
+      <footer> 
       This page was built by Briana Sanazzaro. Open source code: Git Hub
+      <a href="https://github.com/brianars94/weather-react" target="_blank"> Open source code: Git Hub</a>
+      </footer>
     </div>
   );
 }
