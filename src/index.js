@@ -13,8 +13,10 @@ function App() {
       Last Updated: April 22, 2021. 6:33pm. 
       <br />
       <footer> 
-      This page was built by Briana Sanazzaro. Open source code: Git Hub
-      <a href="https://github.com/brianars94/weather-react" target="_blank"> Open source code: Git Hub</a>
+      This page was built by 
+      <a href="https://www.linkedin.com/in/briana-sanazzaro/" target="_blank"> Briana Sanazzaro. </a>
+      Open source code:
+      <a href="https://github.com/brianars94/weather-react" target="_blank">  Git Hub</a>
       </footer>
     </div>
   );
