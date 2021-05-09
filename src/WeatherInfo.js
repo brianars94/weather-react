@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
             </div>
 
             <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <WeatherTemperature imperial={props.data.temperature} />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function WeatherInfo(props) {
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind} km/h</li>
             <li>
-                Precipitation: ???
+                Precipitation: {props.data.precipitation}
             </li>
           </ul>
         </div>
