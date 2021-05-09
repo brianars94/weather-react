@@ -1,0 +1,67 @@
+
+
+Last Updated: <FormattedDate date={weatherData.date} /> 
+   
+</li>
+<p>
+
+</p>
+<li>
+       picture (centered)
+
+</li>
+<p>
+    
+</p>
+<li>
+
+
+<h1> {weatherData.city} </h1>
+</li>
+<p>
+
+</p>
+<li>
+country
+</li>
+<br />
+
+      <li>
+Current conditions: light rain
+      </li>
+<div className="container">
+
+<div className="row justify-content-evenly">
+    <div className="col-6">
+     <li>
+77 °F| °C
+
+</li>
+    </div>
+    <div className="col-6">
+      
+<li>
+Lowest: 71 °F
+
+</li>
+<li>
+   Highest: 81 °F
+ 
+</li>
+<li>
+  Humidity: 61%
+  
+</li>
+<li>
+Wind: 10 km/h 
+
+</li>
+    </div>
+  </div>
+</div>
+
+
+   </div>)
+}
+
+<Forecast />

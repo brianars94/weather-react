@@ -1,27 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WeatherSearch from "./WeatherSearch";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-import "./App.css";
+ReactDOM.render(<App />, document.getElementById("root"));
 
-function App() {
-  return (
-    <div className="App">
-      <WeatherSearch />
-      <button type="button" class="btn btn-secondary">Current</button>
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
 
-      <br />
-      Last Updated: April 22, 2021. 6:33pm. 
-      <br />
-      <footer> 
-      This page was built by 
-      <a href="https://www.linkedin.com/in/briana-sanazzaro/" target="_blank"> Briana Sanazzaro. </a>
-      Open source code:
-      <a href="https://github.com/brianars94/weather-react" target="_blank">  Git Hub</a>
-      </footer>
-    </div>
-  );
-}
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+      
