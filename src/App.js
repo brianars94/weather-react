@@ -10,9 +10,9 @@ export default function App() {
 
  <footer> 
       This page was built by 
-      <a href="https://www.linkedin.com/in/briana-sanazzaro/" target="_blank"> Briana Sanazzaro. </a>
+      <a href="https://www.linkedin.com/in/briana-sanazzaro/" rel="noreferrer" target="_blank"> Briana Sanazzaro. </a>
       Open source code:
-      <a href="https://github.com/brianars94/weather-react" target="_blank">  Git Hub</a>
+      <a href="https://github.com/brianars94/weather-react" rel="noreferrer" target="_blank">  Git Hub</a>
       </footer>
     </div>
     </div>
